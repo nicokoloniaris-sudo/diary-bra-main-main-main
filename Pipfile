@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyautogui = "==0.9.54"
+pynput = "==1.7.6"
+python-dotenv = "==1.0.0"
+pyscreeze = "==0.1.28"
+pypiwin32 = "==223"
+flask = "*"
+flask-sqlalchemy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.14"
